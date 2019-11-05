@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200&display=swap');
+
+body{
+	background:white;
+}
+header{
+	overflow: auto;
+}
+#barra-notificacion{
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+#barra-menu{
+	margin-top: 30px;
+	display: block;
+	overflow: auto;
+}
+#logo-xo{
+	float: left;
+	width: 20%;
+}
+#menu{
+	width: 80%;
+	float: left;
+}
+#menup{
+	color:black;
+	text-transform: uppercase;
+	font-family: Montserrat, sans-serif;
+	list-style: none;
+	display: block;
+	word-spacing: 0.8em;
+	text-align: right;
+}
+#caja-contenedora{
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 20px;
+}
+#caja-store{
+	background: white;
+	text-align: center;
+	overflow: auto;
+}
+.columna{
+	background:#E5E1DE;
+	float: left;
+	text-align: left;
+	width: calc(33.33333% - 10px);
+	margin-right: 10px;
+	position: relative;
+}
+#uno{
+	margin-right: 0px;
+	width: 33.3333%;
+}
+#banner-store{
+	width: 100%;
+	display: block;
+	margin-top: 3%;
+}
+.columna:hover {filter: grayscale(80%);}
+.columna:hover{}
+p{
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+}
+.texto-imagenes {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	color: white;
+	font-weight: black;
+	font-family: sans-serif;
+}
+#footer{
+	background: #1d1d1d;
+	padding: 5%;
+	margin-top: 2%;
+}
+#socialmedia {
+	text-align: center;
+	font-size: 1.4em;
+	color: white;
+}
