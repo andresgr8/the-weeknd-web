@@ -12,16 +12,14 @@ header{
 }
 #barra-menu{
 	margin-top: 30px;
-	display: block;
+	display: flex;
 	overflow: auto;
 }
-#logo-xo{
-	float: left;
+#logo-tw{
 	width: 20%;
 }
 #menu{
 	width: 80%;
-	float: left;
 }
 #menup{
 	color:black;
@@ -37,23 +35,22 @@ header{
 	margin-left: 10%;
 	margin-right: 10%;
 	padding: 20px;
+	overflow: auto;
 }
 #caja-store{
 	background: white;
 	text-align: center;
 	overflow: auto;
+	display: flex;
+	flex-wrap: wrap;
 }
 .columna{
 	background:#E5E1DE;
-	float: left;
 	text-align: left;
-	width: calc(33.33333% - 10px);
+	flex-basis: calc(33.33333% - 10px);
 	margin-right: 10px;
 	position: relative;
-}
-#uno{
-	margin-right: 0px;
-	width: 33.3333%;
+	margin-bottom: 10px;
 }
 #banner-store{
 	width: 100%;
@@ -83,4 +80,15 @@ p{
 	text-align: center;
 	font-size: 1.4em;
 	color: white;
+}
+@media only screen and (max-width: 700px) {
+   .columna {
+       flex-basis: calc(50% - 10px);
+   }
+   #caja-contenedora{
+	margin-top: 5%;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding: 0px;
+	overflow: auto;
 }

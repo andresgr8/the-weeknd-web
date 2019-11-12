@@ -6,16 +6,14 @@ body{
 }
 #barra-menu{
 	margin-top: 30px;
-	display: block;
+	display: flex;
 	overflow: auto;
 }
-#logo-xo{
-	float: left;
+#logo-tw{
 	width: 20%;
 }
 #menu{
 	width: 80%;
-	float: left;
 }
 #menup{
 	color:white;
