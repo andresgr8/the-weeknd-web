@@ -1,0 +1,8 @@
+.header__navigation, .header__navigation--secondary {
+  background: #008cba;
+  padding: 1rem 0;
+  margin: 1rem 0;
+  text-transform: uppercase; }
+
+.header__navigation--secondary {
+  background: #dfe0e0; }
